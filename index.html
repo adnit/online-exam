@@ -9,23 +9,25 @@
 </head>
 
 <body>
-
+<div class="ballina">
     <div class="header">
         <img class="llogoja" src="/images/logo-up.png" alt="Llogo e UPs">
-        <h1>Detyra vleresuese 1 - <strong>ASDH</strong></h1>
+        <h1>Detyra vleresuese 1 <span>ASDH</span></h1>
     </div>
     <div class="forma">
-        <form method="POST" action="/detyra.js" autocomplete="off">
+       
+    
+        <form method="GET" action="/detyra.js" autocomplete="off">
             <h1>Te dhenat tuaja</h1>
-            <label for="emer">Emri dhe mbiemri</label>
+            <label for="emer">Emri dhe mbiemri <span>*</span> </label>
             <br />
             <input type="text" name="name" required />
             <br />
-            <label for="nrID">Numri i ID-se</label>
+            <label for="nrID">Numri i ID-se <span>*</span></label>
             <br />
             <input type="text" required name="nrID" /> </br>
 
-            <label for="asistenti">Asistenti juaj:</label>
+            <label for="asistenti">Asistenti juaj: <span>*</span></label>
 
             <select id="asistenti" required>
                 <option value="-">--</option>
@@ -37,14 +39,15 @@
 
             </br>
             <input type="checkbox" required name="agree" value="agreed">
-            <label for="agree"> Duke klikuar <strong>Shfaq detyren</strong> ju deklaroni se te dhenat jane te
+            <label for="agree">  <span>*</span>Duke klikuar <strong>Shfaq detyren</strong> ju deklaroni se te dhenat jane te
                 sakta</label>
             </br>
             <input type="submit" id="shfaqButton" value="Shfaq detyren" />
         </form>
-
+    
 
     </div>
+</div>
 </body>
 
 </html>

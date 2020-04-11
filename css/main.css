@@ -2,14 +2,44 @@
 
 body {
     font-family: 'Ubuntu', 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.header {
     text-align: center;
-
 }
+
 
 .llogoja {
     margin-top: 1em;
     height: 150px;
+}
+
+.forma {
+    margin-top: 4em;
+}
+.forma input {
+    margin-bottom: 1em;
+}
+
+.forma select {
+    margin-bottom: 1.5em;
+}
+
+
+#shfaqButton {
+
+    height: 50px;
+    width: auto;
+    margin-top: .5em;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+    border: 1px solid #eee;
+    border-radius: 13px;
+    background: rgb(214, 84, 84);
+    color: #fff;
+    }
+
+#shfaqButton:hover {
+    background: #016ABC;
+
+border-radius: 20px;
+
+box-shadow: 5px 5px 5px #eee;
 }

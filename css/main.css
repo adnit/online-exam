@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Ubuntu', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    text-align: center;
+
+}
+
+.llogoja {
+    margin-top: 1em;
+    height: 150px;
+}

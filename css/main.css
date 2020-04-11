@@ -42,11 +42,11 @@ body {
   margin: 0em auto;
   box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
   border-radius: 40px;
-  border: 7px solid #305a72;
+  border: 7px solid #fff;
   animation: zoomIn 1s 0.5 forwards;
 }
 .forma h1 {
-    font-size: 1.7rem;
+    font-size: 1.7rem; 
 }
 .forma input {
   margin-bottom: 1em;
